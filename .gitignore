@@ -2,3 +2,6 @@
 nohup.out
 __pycache__
 .ipynb_checkpoints
+*.json
+images/
+wandb/
