@@ -31,18 +31,23 @@ Output : bbox 좌표가 포함된 UFO Format (상세 제출 포맷은 평가 방
 ## Usage
 ### Structure
 ```sh
-├─ code
-│  │  model.py
-│  │  loss.py
-│  │  train.py
-│  │  inference.py
-│  │  dataset.py
-│  │  detect.py
-│  │  deteval.py
-│  │  east_dataset.py
-│  │  convert_mlt.py
-│  │  requirements.txt
-│  │  pths/
+|-- README.md
+|-- code
+|   |-- convert_mlt.py
+|   |-- dataset.py
+|   |-- detect.py
+|   |-- deteval.py
+|   |-- east_dataset.py
+|   |-- inference.py
+|   |-- loss.py
+|   |-- model.py
+|   `-- train.py
+`-- notebook
+    |-- EDA # Noise Image & Error Image
+    |-- office_hours # office hour
+    `-- utils # k-fold & SWA & Normalize
+    
+# 서버내 input 경로
 └─ input
     └─ data
         └─ ICDAR2017_Korean
