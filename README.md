@@ -1,4 +1,4 @@
-# Semantic Segmentation (재활용 쓰레기 분류)
+# 글자 검출 모델
 
 ## Table of Contents
 
